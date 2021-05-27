@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0880e8;
+  background: #113d63;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -472,7 +472,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(6, 101, 183, 0.9);
+  background: #113d63;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2244,7 +2244,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #05579e;
+  background: #113d63;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
