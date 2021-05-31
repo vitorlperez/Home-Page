@@ -1,8 +1,3 @@
-from flask import Flask
-from flask.templating import render_template
+import requests
 
-app = Flask(__name__)
-
-@app.route('/', methods=['GET'])
-def home():
-    return render_template('index.html')
+requests.post('https://api.vercel.com/v1/integrations/deploy/prj_CprU5cFwjmqdBrH73G5X0HGetOlL/nvOOyJKic4')
